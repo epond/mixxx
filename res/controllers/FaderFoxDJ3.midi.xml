@@ -6,13 +6,13 @@
     </info>
     <controller id="FaderFoxDJ3">
         <scriptfiles>
-            <file filename="FaderFoxDJ3-scripts.js" functionprefix="FaderFoxDJ3"/>
+            <file functionprefix="FaderFoxDJ3" filename="FaderFoxDJ3-scripts.js"/>
         </scriptfiles>
         <controls>
             <control>
                 <group>[Channel1]</group>
-                <key>volume</key>
-                <description>MIDI Learned from 75 messages.</description>
+                <key>pregain</key>
+                <description>MIDI Learned from 124 messages.</description>
                 <status>0xB3</status>
                 <midino>0x00</midino>
                 <options>
@@ -51,8 +51,8 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>volume</key>
-                <description>MIDI Learned from 60 messages.</description>
+                <key>pregain</key>
+                <description>MIDI Learned from 151 messages.</description>
                 <status>0xB3</status>
                 <midino>0x04</midino>
                 <options>
@@ -101,52 +101,52 @@
             </control>
             <control>
                 <group>[Channel1]</group>
-                <key>rate_temp_down</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x83</status>
-                <midino>0x48</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>rate_temp_down</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x93</status>
-                <midino>0x48</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>rate_temp_up</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x83</status>
-                <midino>0x49</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>rate_temp_up</key>
-                <description>MIDI Learned from 2 messages.</description>
-                <status>0x93</status>
-                <midino>0x49</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
                 <key>FaderFoxDJ3.beatjump</key>
                 <description>MIDI Learned from 1 messages.</description>
                 <status>0xB3</status>
                 <midino>0x41</midino>
                 <options>
                     <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x83</status>
+                <midino>0x48</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
+                <midino>0x48</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x83</status>
+                <midino>0x49</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x93</status>
+                <midino>0x49</midino>
+                <options>
+                    <normal/>
                 </options>
             </control>
             <control>
@@ -310,16 +310,6 @@
                 </options>
             </control>
             <control>
-                <group>[Library]</group>
-                <key>FaderFoxDJ3.libraryScroll</key>
-                <description>script binding</description>
-                <status>0xB3</status>
-                <midino>0x64</midino>
-                <options>
-                    <script-binding/>
-                </options>
-            </control>
-            <control>
                 <group>[Master]</group>
                 <key>FaderFoxDJ3.headGain</key>
                 <description>script binding</description>
@@ -335,6 +325,16 @@
                 <description>script binding</description>
                 <status>0xB3</status>
                 <midino>0x63</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>FaderFoxDJ3.libraryScroll</key>
+                <description>script binding</description>
+                <status>0xB3</status>
+                <midino>0x64</midino>
                 <options>
                     <script-binding/>
                 </options>
